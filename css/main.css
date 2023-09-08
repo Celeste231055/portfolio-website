@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700&family=Tinos&display=swap');
+
+
+/* fonts */
+h1,h2,h3{
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+}
+h4,h5,h6{
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+}
+p{
+    font-family: 'Tinos', serif;
+}
+
+/* navigation */
+.navbar {
+    background-color: #DBDCF5;
+    height: 10vh;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.logo-color{
+    color: #0E15BA;
+}
+.nav-link {
+    color:black;
+
+}
+.nav-link:hover{
+    color:0E15BA;
+    
+    
+}
+.nav-link.active{
+    color:0E15BA;
+    font-weight: bold;
+    border-bottom:3px solid #0E15BA;
+}
+
+/* header text */
+.about-text {
+    margin-top: 150px;
+}
+.color-change{
+    color: #0E15BA;
+}
+
+/* header image */
+.img-box{
+    margin-top: 50px;
+    float: right;
+}
+
+/* btn */
+.default-btn{
+    width: 150px;
+    height: 45px;
+    border-radius: 20px;
+    border: 3px solid #0E15BA;
+    background-color: white;
+    
+}
+.default-btn:hover{
+    background-color: #0E15BA;
+    color: white;
+}
