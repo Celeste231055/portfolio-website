@@ -34,7 +34,7 @@ p{
     
 }
 .nav-link.active{
-    color:0E15BA;
+    color: #0E15BA;
     font-weight: bold;
     border-bottom:3px solid #0E15BA;
 }
@@ -51,6 +51,7 @@ p{
 .img-box{
     margin-top: 50px;
     float: right;
+    margin-bottom: 50px;
 }
 
 /* btn */
@@ -65,4 +66,23 @@ p{
 .default-btn:hover{
     background-color: #0E15BA;
     color: white;
+}
+
+/* portfolio spacing */
+.space{
+    margin-top: 100px;
+    margin-bottom: 130px;
+}
+.text-space{
+    padding-left: 75px;
+    
+}
+
+/* footer */
+.footer-box{
+    background-color: #0E15BA;
+    color: white;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
