@@ -77,7 +77,15 @@ p{
     padding-left: 75px;
     
 }
-
+.carousel-control-next, .carousel-control-prev{
+   
+    align-items: end;
+    padding: 10px;
+    margin-left: 210px;
+    margin-right: 210px;
+    
+    
+}
 /* footer */
 .footer-box{
     background-color: #0E15BA;
